@@ -1,0 +1,167 @@
+{
+  "n_problems": 4,
+  "preexact_mode": "frozen",
+  "discovery_rate": 0.25,
+  "n_discovered": 1,
+  "greedy_exact_before": 0,
+  "greedy_exact_after": 0,
+  "mean_baseline_exact_rate": 0.0009765625,
+  "mean_final_exact_rate": 0.0,
+  "mean_first_exact_calls_discovered": 2048.0,
+  "per_problem": [
+    {
+      "id": "data/test.xlsx#test:367",
+      "equation_latex": "y^{\\prime\\prime}+12y^{\\prime}-1120y=0",
+      "preexact_mode": "frozen",
+      "baseline": {
+        "n": 256,
+        "exact": 0,
+        "rate": 0.0,
+        "timeouts": 0,
+        "best_reward": 6.0,
+        "examples": [],
+        "cache_hits": 117,
+        "cache_misses": 139,
+        "greedy_exact": false
+      },
+      "warmup_exact": 0,
+      "warmup_samples": 256,
+      "first_exact_by_search_calls": null,
+      "first_exact_source": null,
+      "final": {
+        "n": 256,
+        "exact": 0,
+        "rate": 0.0,
+        "timeouts": 0,
+        "best_reward": 2.0489805517039636,
+        "examples": [],
+        "cache_hits": 256,
+        "cache_misses": 0
+      },
+      "final_greedy_exact": false,
+      "final_greedy_expr": "a9*exp(-6*x)*sinh(a8 + 12*x)",
+      "search_candidate_samples": 2176,
+      "search_unique_verifier_evals": 712,
+      "dense_reward_unique_calls": 0,
+      "heldout_candidate_samples": 2048,
+      "heldout_unique_verifier_evals": 606
+    },
+    {
+      "id": "data/test.xlsx#test:60",
+      "equation_latex": "y^{\\prime\\prime}+48y^{\\prime}+495y=0",
+      "preexact_mode": "frozen",
+      "baseline": {
+        "n": 256,
+        "exact": 1,
+        "rate": 0.00390625,
+        "timeouts": 0,
+        "best_reward": 26.0,
+        "examples": [
+          {
+            "expr": "(a8 + a9*exp(-18*x))*exp(-15*x)",
+            "tokens": "mul add a8 mul a9 exp mul INT- 1 8 x exp mul INT- 1 5 x",
+            "reward": 26.0
+          }
+        ],
+        "cache_hits": 105,
+        "cache_misses": 151,
+        "greedy_exact": false
+      },
+      "warmup_exact": 0,
+      "warmup_samples": 256,
+      "first_exact_by_search_calls": 2048,
+      "first_exact_source": "policy_pre",
+      "final": {
+        "n": 256,
+        "exact": 0,
+        "rate": 0.0,
+        "timeouts": 0,
+        "best_reward": 5.407844249544172,
+        "examples": [],
+        "cache_hits": 256,
+        "cache_misses": 0
+      },
+      "final_greedy_exact": false,
+      "final_greedy_expr": "a9*exp(-24*x)*sinh(a8 - 3*x)",
+      "search_candidate_samples": 2176,
+      "search_unique_verifier_evals": 809,
+      "dense_reward_unique_calls": 0,
+      "heldout_candidate_samples": 2048,
+      "heldout_unique_verifier_evals": 706
+    },
+    {
+      "id": "data/test.xlsx#test:1264",
+      "equation_latex": "4y^{\\prime\\prime} -5y^{\\prime} + 0y = x^{2}",
+      "preexact_mode": "frozen",
+      "baseline": {
+        "n": 256,
+        "exact": 0,
+        "rate": 0.0,
+        "timeouts": 0,
+        "best_reward": 6.0,
+        "examples": [],
+        "cache_hits": 28,
+        "cache_misses": 228,
+        "greedy_exact": false
+      },
+      "warmup_exact": 0,
+      "warmup_samples": 256,
+      "first_exact_by_search_calls": null,
+      "first_exact_source": null,
+      "final": {
+        "n": 256,
+        "exact": 0,
+        "rate": 0.0,
+        "timeouts": 0,
+        "best_reward": 6.0,
+        "examples": [],
+        "cache_hits": 256,
+        "cache_misses": 0
+      },
+      "final_greedy_exact": false,
+      "final_greedy_expr": "a8*exp(5*x/4) + a9 - x**3/25 - x",
+      "search_candidate_samples": 2176,
+      "search_unique_verifier_evals": 1416,
+      "dense_reward_unique_calls": 0,
+      "heldout_candidate_samples": 2048,
+      "heldout_unique_verifier_evals": 1200
+    },
+    {
+      "id": "data/test.xlsx#test:1516",
+      "equation_latex": "4y^{\\prime\\prime} + 4y^{\\prime} + 0y = \\cos(2 * x)",
+      "preexact_mode": "frozen",
+      "baseline": {
+        "n": 256,
+        "exact": 0,
+        "rate": 0.0,
+        "timeouts": 0,
+        "best_reward": 6.0,
+        "examples": [],
+        "cache_hits": 174,
+        "cache_misses": 82,
+        "greedy_exact": false
+      },
+      "warmup_exact": 0,
+      "warmup_samples": 256,
+      "first_exact_by_search_calls": null,
+      "first_exact_source": null,
+      "final": {
+        "n": 256,
+        "exact": 0,
+        "rate": 0.0,
+        "timeouts": 0,
+        "best_reward": 6.0,
+        "examples": [],
+        "cache_hits": 256,
+        "cache_misses": 0
+      },
+      "final_greedy_exact": false,
+      "final_greedy_expr": "a8 + a9*exp(-x) + sin(2*x)/8",
+      "search_candidate_samples": 2176,
+      "search_unique_verifier_evals": 331,
+      "dense_reward_unique_calls": 0,
+      "heldout_candidate_samples": 2048,
+      "heldout_unique_verifier_evals": 292
+    }
+  ]
+}

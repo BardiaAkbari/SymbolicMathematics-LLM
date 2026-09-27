@@ -1,0 +1,187 @@
+starting_cpu_pools verifier_workers=16 reward_workers=1
+cpu_pools_ready
+device=cuda
+trainable_parameters=16,889,947 scope=last_layer
+
+==============================================================================================================
+problem 1/4 id=data/test.xlsx#test:367 mode=frozen
+equation=y^{\prime\prime}+12y^{\prime}-1120y=0
+prefix=add mul INT- 1 1 2 0 Y add mul INT+ 1 2 Y' Y''
+baseline exact=0/256 (0.00%) greedy=0
+  warmup 64/256 exact=0
+  warmup 128/256 exact=0
+  warmup 192/256 exact=0
+  warmup 256/256 exact=0
+warmup summary exact=0/256 replay=None
+  step=00 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=01 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=02 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=03 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=04 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=05 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=06 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=07 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=08 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=09 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=10 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=11 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=12 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=13 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=14 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=15 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=16 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=17 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=18 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=19 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=20 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=21 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=22 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=23 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=24 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=25 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=26 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=27 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=28 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=29 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+FINAL exact=0/256 (0.00%) greedy=0 first_exact=None search=2176 dense=0
+
+==============================================================================================================
+problem 2/4 id=data/test.xlsx#test:60 mode=frozen
+equation=y^{\prime\prime}+48y^{\prime}+495y=0
+prefix=add mul INT+ 4 8 Y' add mul INT+ 4 9 5 Y Y''
+baseline exact=1/256 (0.39%) greedy=0
+  warmup 64/256 exact=0
+  warmup 128/256 exact=0
+  warmup 192/256 exact=0
+  warmup 256/256 exact=0
+warmup summary exact=0/256 replay=None
+  step=00 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=01 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=02 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=03 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=04 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=05 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=06 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=07 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=08 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=09 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=10 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=11 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=12 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=13 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=14 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=15 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=16 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=17 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=18 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=19 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=1/256 (0.4%)
+  step=20 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=21 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=22 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=23 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=24 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=25 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=26 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=27 phase=pre_exact policy/base=64/0 exact=1 (p=1,b=0) greedy=0
+  step=28 phase=post_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=29 phase=post_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+FINAL exact=0/256 (0.00%) greedy=0 first_exact=2048 search=2176 dense=0
+
+==============================================================================================================
+problem 3/4 id=data/test.xlsx#test:1264 mode=frozen
+equation=4y^{\prime\prime} -5y^{\prime} + 0y = x^{2}
+prefix=add mul INT- 1 pow x INT+ 2 add mul INT- 5 Y' mul INT+ 4 Y''
+baseline exact=0/256 (0.00%) greedy=0
+  warmup 64/256 exact=0
+  warmup 128/256 exact=0
+  warmup 192/256 exact=0
+  warmup 256/256 exact=0
+warmup summary exact=0/256 replay=None
+  step=00 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=01 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=02 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=03 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=04 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=05 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=06 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=07 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=08 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=09 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=10 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=11 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=12 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=13 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=14 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=15 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=16 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=17 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=18 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=19 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=20 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=21 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=22 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=23 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=24 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=25 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=26 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=27 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=28 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=29 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+FINAL exact=0/256 (0.00%) greedy=0 first_exact=None search=2176 dense=0
+
+==============================================================================================================
+problem 4/4 id=data/test.xlsx#test:1516 mode=frozen
+equation=4y^{\prime\prime} + 4y^{\prime} + 0y = \cos(2 * x)
+prefix=add mul INT- 1 cos mul INT+ 2 x add mul INT+ 4 Y' mul INT+ 4 Y''
+baseline exact=0/256 (0.00%) greedy=0
+  warmup 64/256 exact=0
+  warmup 128/256 exact=0
+  warmup 192/256 exact=0
+  warmup 256/256 exact=0
+warmup summary exact=0/256 replay=None
+  step=00 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=01 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=02 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=03 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=04 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=05 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=06 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=07 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=08 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=09 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=10 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=11 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=12 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=13 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=14 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=15 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=16 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=17 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=18 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=19 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=20 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=21 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=22 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=23 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=24 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+  step=25 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=26 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=27 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=28 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0
+  step=29 phase=pre_exact policy/base=64/0 exact=0 (p=0,b=0) greedy=0 heldout=0/256 (0.0%)
+FINAL exact=0/256 (0.00%) greedy=0 first_exact=None search=2176 dense=0
+
+=== aggregate ===
+{
+  "n_problems": 4,
+  "preexact_mode": "frozen",
+  "discovery_rate": 0.25,
+  "n_discovered": 1,
+  "greedy_exact_before": 0,
+  "greedy_exact_after": 0,
+  "mean_baseline_exact_rate": 0.0009765625,
+  "mean_final_exact_rate": 0.0,
+  "mean_first_exact_calls_discovered": 2048.0
+}
+results=frozen4_control_results.jsonl
+summary=frozen4_control_summary.json

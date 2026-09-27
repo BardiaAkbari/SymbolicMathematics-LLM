@@ -1,0 +1,6 @@
+{"update": 0, "raw_logp": -12.488788604736328, "eval": {"n": 64, "successes": 0, "rate": 0.0, "generation_s": 0.3351470800116658, "verification_s": 39.761957871960476, "cache_hits": 0, "cache_misses": 64}}
+{"update": 1, "loss": 12.488788604736328, "raw_logp": -12.020063400268555, "eval": {"n": 64, "successes": 0, "rate": 0.0, "generation_s": 0.27698562503792346, "verification_s": 31.258578771026805, "cache_hits": 1, "cache_misses": 63}}
+{"update": 5, "loss": 10.687832832336426, "raw_logp": -10.267461776733398, "eval": {"n": 64, "successes": 0, "rate": 0.0, "generation_s": 0.2871419850271195, "verification_s": 30.513474729144946, "cache_hits": 1, "cache_misses": 63}}
+{"update": 10, "loss": 8.64648151397705, "raw_logp": -8.261785507202148, "eval": {"n": 64, "successes": 0, "rate": 0.0, "generation_s": 0.2520479478407651, "verification_s": 27.154039015993476, "cache_hits": 3, "cache_misses": 61}}
+{"update": 15, "loss": 6.848659515380859, "raw_logp": -6.536842346191406, "eval": {"n": 64, "successes": 1, "rate": 0.015625, "generation_s": 0.47014785720966756, "verification_s": 30.07703110203147, "cache_hits": 5, "cache_misses": 59}}
+{"update": 20, "loss": 5.479942321777344, "raw_logp": -5.266036033630371, "eval": {"n": 64, "successes": 0, "rate": 0.0, "generation_s": 0.2850860811304301, "verification_s": 35.58599044196308, "cache_hits": 2, "cache_misses": 62}}
