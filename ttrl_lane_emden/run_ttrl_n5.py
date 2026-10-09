@@ -86,6 +86,12 @@ def parse_args():
     )
     p.add_argument("--lr", type=float, default=3e-6)
     p.add_argument("--max-len", type=int, default=128)
+    p.add_argument(
+        "--max-exact-len",
+        type=int,
+        default=128,
+        help="Maximum candidate token length for symbolic exact verification (default: 128)",
+    )
     p.add_argument("--sample-batch-size", type=int, default=32)
     p.add_argument("--train-batch-size", type=int, default=32)
     p.add_argument("--grad-clip", type=float, default=1.0)
